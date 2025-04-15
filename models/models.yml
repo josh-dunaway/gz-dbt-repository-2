@@ -92,3 +92,7 @@ models:
             - log_cost
             - ship_cost
             - quantity
+  - name: int_campaigns
+    description: union of 4 raw campaign tables
+  - name: int_campaigns_day
+    description: campaigns on date_date granularity with some metrics
