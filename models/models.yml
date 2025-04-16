@@ -13,7 +13,7 @@ models:
     columns:
       - name: margin
         description: Margin = Revenue - Purchase_cost
-      - name: Purchase_cost
+      - name: purchase_cost
         description: Purchase_cost = Quantity * Purchase_price
     tests:
       - unique:
@@ -23,7 +23,7 @@ models:
             - orders_id
             - products_id
             - margin
-            - Purchase_cost
+            - purchase_cost
             - date_date
             - revenue
             - quantity        
@@ -34,7 +34,7 @@ models:
         description: primary key
       - name: margin
         description: Margin = Revenue - Purchase_cost
-      - name: Purchase_cost
+      - name: purchase_cost
         description: Purchase_cost = Quantity * Purchase_price 
       - name: date_date
         description: date of the order
