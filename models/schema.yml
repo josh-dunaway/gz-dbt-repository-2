@@ -36,7 +36,7 @@ sources:
             tests:
               - unique
               - not_null
-          - name: purchase_price
+          - name: purchSE_PRICE
             description: greenweez purchase price of specified product
       - name: ship
         identifier: raw_gz_ship
@@ -49,7 +49,7 @@ sources:
               - not_null            
           - name: shipping_fee
             description: how much customer is charged for greenweez to ship order
-          - name: log_cost
+          - name: logCost
             description: how much greenweez pays for order logging
           - name: ship_cost
             description: how much greenweez pays for order shipping
