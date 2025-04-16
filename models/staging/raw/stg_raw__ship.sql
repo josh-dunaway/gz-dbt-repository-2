@@ -19,3 +19,4 @@ renamed as (
 )
 
 select * from renamed
+-- random comment down here
