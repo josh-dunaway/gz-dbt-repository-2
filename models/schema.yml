@@ -49,6 +49,8 @@ sources:
               - not_null            
           - name: shipping_fee
             description: how much customer is charged for greenweez to ship order
+          - name: shipping_fee_1
+            description: duplicate of shipping_fee
           - name: logCost
             description: how much greenweez pays for order logging
           - name: ship_cost
